@@ -24,7 +24,6 @@ footer
 {
    
     margin: 100px;
-  
     padding: 60px 0px;
     padding-left: 200px;
 
@@ -41,17 +40,13 @@ footer
    
 }
 
-.footer {
-    flex: 1 1 200px; /* Flex-grow, flex-shrink, and flex-basis to allow wrapping */
-    margin: 20px;
-}
 @media(max-width:768px){
     .row{
         width: 600px;
     }
     
 }
-@media(max-width:486px){
+@media(min-width:486px){
     .row{
         width:100%;
     }
